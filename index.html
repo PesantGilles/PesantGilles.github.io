@@ -3,7 +3,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Pragmatics of Constraint Reasoning 2017</title>
+  <title>Constraints and AI Planning 2018</title>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
   <style>
     .was {
@@ -18,7 +18,7 @@
 <body>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <nav class="navbar navbar-inverse" role="navigation">
-    <a class="navbar-brand" href="../">Pragmatics of SAT</a>
+    <a class="navbar-brand" href="../">Constraints and AI Planning</a>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#context">Scientific context</a></li>
       <li><a href="#topics">Topics</a></li>
@@ -28,76 +28,56 @@
       <li><a href="#dates">Important dates</a></li>
       <li><a href="#PC">Programme Committee</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="http://sat2017.gitlab.io/">SAT'17</a></li>
       </ul>
     </nav>
   <div class="container">
 
     <div class="jumbotron">
 
-      <h1>Pragmatics of Constraint Reasoning</h1>
+      <h1>Constraints and AI Planning</h1>
       <p>
-	a workshop of the <a href="http://cp2017.a4cp.org/">23rd International Conference on Principles and Practice of Constraint Programming</a>,
-	<a href="http://iclp17.a4lp.org/">33rd International Conference on Logic Programming</a> and
-	<a href="http://sat2017.gitlab.io">20th International Conference on Theory and Applications of Satisfiability Testing</a>
+	an incubator workshop of the <a href="http://cp2018.a4cp.org/">24rd International Conference on Principles and Practice of Constraint Programming</a>
 	</p>
       <p>
-	August 28, 2017, Melbourne, Australia
+	August 27, 2018, Lille, France
 	</p>
       </div>
+<!--
     <div class="alert alert-info">
             <span class="label label-info">News:</span> presentations are now available.
 	    </div>
+-->
     <h1><a name="context">Scientific context</a></h1>
     <h2>Purpose</h2>
-    <p>
-      The aim of the Pragmatics of SAT (PoS) workshop is to allow researchers concerned with the design of efficient SAT and CP
-      solvers at large or SAT encodings/CP formulation to meet and discuss about their latest results. The workshop is also
-      the place for users of SAT and CP technology to present their applications. The collocation of CP, ICLP and SAT this year is
-      a unique opportunity to enlarge the audience of the workshop to the whole constraint community, thus the specific name ``Pragmatics
-      of Constraint Reasoning".
+
+For this first one-day workshop on the topic of Constraints and AI Planning we take a broad view stemming from the observation that there are fundamental differences in representing and reasoning about a problem via constraints, as is common in CP and optimization, and doing so in the form of a state-transition system, as is common in AI planning, heuristic search, and dynamic programming.
+
+Therefore we hope to attract presentations and discussions on the interactions, overlaps, and differences among CP, SAT, mixed integer programming, AI planning in its many forms (e.g., classical, numeric, temporal, stochastic), heuristic search (i.e., A*-style state-based search) and dynamic programming. We are particularly interested in combinations of two or more perspectives.
+
+This workshop should interest researchers from academia and industry in the areas of constraint programming, operations research, and AI planning. 
+Since some of the regular CP conference attendees may not be familiar with AI planning, the workshop will include a tutorial on the fundamentals of AI planning.
 
       <h2>Background</h2>
-      The success of SAT technology in the last decade is mainly due to both the availability of numerous efficient SAT solvers
-      and to the growing number of problems that can efficiently be solved through a translation into SAT. There are also numerous
-      CP systems available today, in various languages, some of them hybridizing CP and SAT. Designing efficient solvers requires
-      both a good theoretical knowledge about the design of those solvers, i.e. how are interacting all its components, and
-      a deep practical knowledge about how to implement efficiently such components. The CP community organizes regularly competitive
-      events (SAT competition or SAT Races, QBF Evaluation, MAXSAT evaluation, Minizinc Challenge, etc.) to evaluate available
-      solvers on a wide range of problems. The winners of those events set regularly new standards in the area. If the systems
-      themselves are widely spread, many details on their design or in their implementation can only be found in the source
-      code of the systems. The aim of the workshop is to allow researchers to share some gory technical details about their
-      systems that they cannot usually share within the main SAT or CP conference.
 
-      <h2>History</h2>
-      The first workshops dedicated to the practical aspects of constraint programming were organized under the series TRICS: Techniques
-      foR Implementing Constraint programming Systems. The workshops were organized in 2000 (Singapore), 2002 (Ithaca), 2010
-      (St Andrews) and <a href"http://cp2013.a4cp.org/workshops/trics">2013 (Uppsala)</a>. The first edition of PoS took place during
-      FLoC 2010. The second edition took place before SAT 2011, in Ann Arbor. The third edition took place on June 16, 2012,
-      between the second SAT/SMT Summer School (June 12 to 15) and the SAT conference (June 17-20). The fourth edition took
-      place on July 8, once again between the SAT/SMT summer school and the SAT conference. The fifth edition took place during
-      the Vienna Summer of Logic, just before the SAT conference. The sixth edition took place before the SAT conference, in
-      Austin. The last edition took place before the SAT conference, in Bordeaux.
-
-      
+While there has been a history of more than 20 years in the application of SAT, CP, and MIP to AI planning problems, there has been recent interest in a deeper cross-fertilization between the areas of constraint programming, operations research, and planning: 
+<ul>
+<li> A Dagstuhl seminar on AI planning and Operations Research (including in particular several members of the CP community) was held in February 2018,</li>
+<li> ICAPS2018 and CPAIOR2018 international conferences are co-located,</li>
+<li> A number of papers over the past five years at ICAPS (including at least two best paper winners) and planning sessions of AAAI and IJCAI (again, including at least one best paper winner) have focused on the use of techniques coming from Constraint Programming and Operations Research (e.g., LP, MIP, Logic-based Benders Decomposition) for important components of mainstream solutions to AI planning problems.</li>
+</ul>
 
       <h1><a name="topics">Topics</a></h1>
       <p>Main areas of interest include, but are not restricted to:</p>
       <ul>
-	<li>techniques for debugging or certifying solvers</li>
-	<li>visualisation of benchmarks structure</li>
-	<li>monitoring solver behaviour</li>
-	<li>evaluation of solvers</li>
-	<li>efficient data structures</li>
-	<li>domain specific encodings</li>
-	<li>taking into account multi-core technology</li>
-	<li>domain specific heuristics</li>
-	<li>new application of constraint-based technologies</li>
-	<li>new use cases of constraint-based technologies</li>
-	<li>system/library description</li>
-	<li>SAT/SMT/CP/LP solver API</li>
+<li> Using constraint-based techniques (e.g., CP, SAT, SMT, MIP) for solving AI planning problems including contributing to components of the AI planning solution such as heuristic evaluation.</li>
+<li> Theoretical/formal work comparing constraint-based and state-based representation and reasoning.</li>
+<li> Empirical studies comparing constraint-based and state-based solution approaches on common classes of problems.</li>
+<li> Extending approaches primarily developed in one area to the other (e.g., Lagrangian relaxation, Logic-based Benders decomposition, A$^*$-style search, abstraction).</li>
+<li> Understanding and comparing techniques that have been developed and applied independently in both optimization/OR and AI literatures (e.g. multi-valued decision diagrams, dynamic programming vs. heuristic search, Markov Decision Processes).</li>
 	</ul>
       <h1><a name="programme">Programme/Venue</a></h1>
+TBA
+<!--
         <p>The workshop will take place at the <a href="http://sat2017.gitlab.io/venue.html">Melbourne Convention and Exhibition Centre</a>, in Room 107. See the <a href="http://sat2017.gitlab.io/booklet_a5.pdf"> conference booklet</a> for details to locate the room.</p>
         
         <p>All technical presentations have a 30 minute slot including questions. All invited talks (competitive events) have a one hour slot including questions.</p>
@@ -134,70 +114,43 @@
             
             <tr><th colspan="2">16h30&nbsp;Closing</th></tr>
         </table>
-        
+  -->
+      
 	<h1><a name="registration">Registration</a></h1>
 
-<p>There is no specific registration for PoCR. Registration for the workshops day is available on from one of the conference hosting conference (<a href="http://sat2017.gitlab.io/registration.html">SAT</a>, <a href="http://cp2017.a4cp.org/registration.html">CP</a>, <a href="http://iclp17.a4lp.org/registration.html">ICLP</a>) and allows to attend any workshop that day.</p>
+<p>Registration for the workshops day is available from the hosting conference.</p>
+
 <h1><a name="submission">Submission</a></h1>
 <p>
-  The workshop welcomes three categories of papers:
-  <ul>
-    <li><span class="label label-default">Regular papers</span> describing original work on a topic of the workshop, whose focus
-      is too narrow to be published in a conference.</li>
-    <li><span class="label label-default">Work in progress papers</span> describing less mature work on a topic of the workshop,
-      to gather feedback from the community. Those papers will be distributed to the audience of the workshop only.</li>
-    <li><span class="label label-default">Presentation papers</span> describing a work on a topic of the workshop published recently
-      to another conference, but that the community may have missed. Those papers will only be evaluated on their relevance
-      to the workshop, and will not be distributed to the audience (a link to the original paper will be given).</li>
-    </ul>
+Participants wishing to present during the workshop should send a one-page abstract to ...
   </p>
-<p>Each submission will be reviewed by at least three members of the programme committee.</p>
+<!--
         <p>The papers must be submitted electronically through <a
             href="https://easychair.org/conferences/?conf=pocr17">EasyChair</a>
         as a PDF file using the <a href="http://www.easychair.org/publications/easychair.zip">EasyChair proceedings style</a>. Each submission is limited to 14 pages, plus references.
         </p>
-	<p>Authors should provide enough information and/or data for reviewers to confirm any performance claims. This includes links
-	  to a runnable system, access to benchmarks, reference to a public performance results, etc.</p>
+-->
 
 	<h1><a name="dates">Important dates</a></h1>
 
 	<ul>
-            <li>Abstract submission deadline: June <span class="was">23</span> 28, 2017</li>
-	    <li>Paper submission deadline: June 28, 2017</li>
-	    <li>Notification to authors: July 14, 2017</li>
-	    <li>Final version due: August 18, 2017</li>
-	    <li><span class="label label-info">Workshop: August 28, 2017</span></li>
+            <li>Abstract submission deadline: July 13, 2018</li>
+	    <li>Notification to authors: July 20, 2018</li>
+	    <li><span class="label label-info">Workshop: August 27, 2018</span></li>
 	    </ul>
 
-	<h1><a name="PC">Programme Committee</a></h1>
+	<h1><a name="PC">Organizers</a></h1>
 
     <ul>
-      <li>ArminBiere, Johannes Kepler University Linz</li>
-      <li>MatsCarlsson,SICS</li>
-      <li>DanielLe Berre,CNRS - Université d'Artois</li>
-      <li>JoaoMarques-Silva, University of Lisbon</li>
-      <li>RubenMartins, University of Texas at Austin</li>
-      <li>LaurentMichel,University of Connecticut</li>
-      <li>LaurentPerron, Google France</li>
-      <li>CharlesPrud'Homme, TASC (CNRS/INRIA), Mines Nantes</li>
-      <li>LucaPulina, POLCOMING - University of Sassari</li>
-      <li>Jean-CharlesRegin,University Nice-Sophia Antipolis / I3S / CNRS</li>
-      <li>OlivierRoussel, CNRS - Université d'Artois</li>
-      <li>TorstenSchaub, University of Potsdam</li>
-      <li>PierreSchaus, UC Louvain</li>
-      <li>TakehideSoh, Information Science and Technology Center, Kobe University</li>
+      <li>Christopher Beck, University of Toronto, jcb@mie.utoronto.ca</li>
+      <li>Michael Cashmore, King's College London, michael.cashmore@kcl.ac.uk</li>
+      <li>Malte Helmert, University of Basel, malte.helmert@unibas.ch</li>
+      <li>Gilles Pesant, Polytechnique Montreal, gilles.pesant@polymtl.ca</li>
     </ul>
     <h1><a name="contact">Contact</a></h1>
     <p>
-      For any questions related to the workshop, the preferred solution to contact the organizers is to send an email to <code>pocr at pragmaticsofsat.org</code>.
+      For any questions related to the workshop, please contact one of the organizers above.
       </p>
-    <pre>
-Daniel Le Berre                               Pierre Schaus                                                                        
-Universite d'Artois                           UC Louvain                              
-CNRS                                          ICTeam institute                                                     
-Rue Jean Souvraz SP 18 62307 Lens FRANCE      Place Sainte Barbe 2, 1348 Louvain-la-Neuve       
-http://www.cril.fr/~leberre                   https://www.info.ucl.ac.be/~pschaus/        
-</pre>
     </div>
 </body>
 
