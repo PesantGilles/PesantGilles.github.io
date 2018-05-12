@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Pragmatics of Constraint Reasoning 2017</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <style>
+    .was {
+    text-decoration: line-through;
+    }
+        .myu {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <a class="navbar-brand" href="../">Pragmatics of SAT</a>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#context">Scientific context</a></li>
+      <li><a href="#topics">Topics</a></li>
+      <li><a href="#programme">Programme</a></li>
+      <li><a href="#registration">Registration</a></li>
+      <li><a href="#submission">Submission</a></li>
+      <li><a href="#dates">Important dates</a></li>
+      <li><a href="#PC">Programme Committee</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="http://sat2017.gitlab.io/">SAT'17</a></li>
+      </ul>
+    </nav>
+  <div class="container">
+
+    <div class="jumbotron">
+
+      <h1>Pragmatics of Constraint Reasoning</h1>
+      <p>
+	a workshop of the <a href="http://cp2017.a4cp.org/">23rd International Conference on Principles and Practice of Constraint Programming</a>,
+	<a href="http://iclp17.a4lp.org/">33rd International Conference on Logic Programming</a> and
+	<a href="http://sat2017.gitlab.io">20th International Conference on Theory and Applications of Satisfiability Testing</a>
+	</p>
+      <p>
+	August 28, 2017, Melbourne, Australia
+	</p>
+      </div>
+    <div class="alert alert-info">
+            <span class="label label-info">News:</span> presentations are now available.
+	    </div>
+    <h1><a name="context">Scientific context</a></h1>
+    <h2>Purpose</h2>
+    <p>
+      The aim of the Pragmatics of SAT (PoS) workshop is to allow researchers concerned with the design of efficient SAT and CP
+      solvers at large or SAT encodings/CP formulation to meet and discuss about their latest results. The workshop is also
+      the place for users of SAT and CP technology to present their applications. The collocation of CP, ICLP and SAT this year is
+      a unique opportunity to enlarge the audience of the workshop to the whole constraint community, thus the specific name ``Pragmatics
+      of Constraint Reasoning".
+
+      <h2>Background</h2>
+      The success of SAT technology in the last decade is mainly due to both the availability of numerous efficient SAT solvers
+      and to the growing number of problems that can efficiently be solved through a translation into SAT. There are also numerous
+      CP systems available today, in various languages, some of them hybridizing CP and SAT. Designing efficient solvers requires
+      both a good theoretical knowledge about the design of those solvers, i.e. how are interacting all its components, and
+      a deep practical knowledge about how to implement efficiently such components. The CP community organizes regularly competitive
+      events (SAT competition or SAT Races, QBF Evaluation, MAXSAT evaluation, Minizinc Challenge, etc.) to evaluate available
+      solvers on a wide range of problems. The winners of those events set regularly new standards in the area. If the systems
+      themselves are widely spread, many details on their design or in their implementation can only be found in the source
+      code of the systems. The aim of the workshop is to allow researchers to share some gory technical details about their
+      systems that they cannot usually share within the main SAT or CP conference.
+
+      <h2>History</h2>
+      The first workshops dedicated to the practical aspects of constraint programming were organized under the series TRICS: Techniques
+      foR Implementing Constraint programming Systems. The workshops were organized in 2000 (Singapore), 2002 (Ithaca), 2010
+      (St Andrews) and <a href"http://cp2013.a4cp.org/workshops/trics">2013 (Uppsala)</a>. The first edition of PoS took place during
+      FLoC 2010. The second edition took place before SAT 2011, in Ann Arbor. The third edition took place on June 16, 2012,
+      between the second SAT/SMT Summer School (June 12 to 15) and the SAT conference (June 17-20). The fourth edition took
+      place on July 8, once again between the SAT/SMT summer school and the SAT conference. The fifth edition took place during
+      the Vienna Summer of Logic, just before the SAT conference. The sixth edition took place before the SAT conference, in
+      Austin. The last edition took place before the SAT conference, in Bordeaux.
+
+      
+
+      <h1><a name="topics">Topics</a></h1>
+      <p>Main areas of interest include, but are not restricted to:</p>
+      <ul>
+	<li>techniques for debugging or certifying solvers</li>
+	<li>visualisation of benchmarks structure</li>
+	<li>monitoring solver behaviour</li>
+	<li>evaluation of solvers</li>
+	<li>efficient data structures</li>
+	<li>domain specific encodings</li>
+	<li>taking into account multi-core technology</li>
+	<li>domain specific heuristics</li>
+	<li>new application of constraint-based technologies</li>
+	<li>new use cases of constraint-based technologies</li>
+	<li>system/library description</li>
+	<li>SAT/SMT/CP/LP solver API</li>
+	</ul>
+      <h1><a name="programme">Programme/Venue</a></h1>
+        <p>The workshop will take place at the <a href="http://sat2017.gitlab.io/venue.html">Melbourne Convention and Exhibition Centre</a>, in Room 107. See the <a href="http://sat2017.gitlab.io/booklet_a5.pdf"> conference booklet</a> for details to locate the room.</p>
+        
+        <p>All technical presentations have a 30 minute slot including questions. All invited talks (competitive events) have a one hour slot including questions.</p>
+        
+        <table  class="table table-bordered table-hover">
+            
+            <tr><th colspan="2">9h&nbsp;Opening</th></tr>
+            <tr><th colspan="2">9h-10h&nbsp;Session 1: Cutting Planes</th></tr>
+            
+            <tr><td><span class="myu">Marc Vinyals</span>, Jan Elffers, Jesús Giráldez-Crú, Stephan Gocht and Jakob Nordström
+            </td><td><i>In Between Resolution and Cutting Planes: A Study of Proof Systems for Pseudo-Boolean SAT Solving</i> (<a href="session1_slides1.pdf">slides PDF</a>)</td></tr>
+            <tr><td>Jan Elffers, Jesús Giráldez-Crú, <span class="myu">Jakob Nordström</span> and Marc Vinyals
+            </td><td><i>Using Combinatorial Benchmarks to Probe the Reasoning Power of Pseudo-Boolean Solvers</i> (<a href="session1_slides2.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">10h00-10h30&nbsp;Coffee Break</th></tr>
+            
+            <tr><th>10h30-12h&nbsp;Session 2: Back to SAT</th></tr>
+            
+            <tr><td>Edward Zulkoski, Ruben Martins, Christoph M. Wintersteiger, Robert Robere, Jia Liang, Krzysztof Czarnecki and Vijay Ganesh</td><td><i>Empirically Relating Complexity-theoretic Parameters with SAT Solver Performance</i> (<a href="session2_slides1.pptx">slides PPTX</a>)</td></tr>
+            <tr><td>Tom van Dijk, Rüdiger Ehlers and <span class="myu">Armin Biere</span></td><td><i>Revisiting Decision Diagrams for SAT</i> (<a href="http://fmv.jku.at/biere/talks/Biere-POCR17-talk.pdf">slides PDF</a>)</td></tr>
+            <tr><td>Jean Marie Lagniez, Daniel Le Berre, Tiago de Lima and <span class="myu">Valentin Montmirail</span>
+            </td><td><i>A SAT-Based Approach for Solving the Minimal S5-Satisfiability Problem</i> (<a href="session2_slides3.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">12h-13h30&nbsp;Lunch (not provided)</th></tr>
+            
+            <tr><th colspan="2">13h30-15h30&nbsp;Session 3: competitive event discussions</th></tr>
+            
+            <tr><td><span class="myu">Luca Pulina</span> </td><td><i><a href="http://www.qbflib.org/qbfeval17.php">QBF-Eval</a></i>  (<a href="session3_slides1.pdf">slides PDF</a>)</td></tr>
+            <tr><td><span class="myu">Christophe Lecoutre</span></td><td><i><a href="http://xcsp.org/competition"> Structure Preserved by XCSP3: an Interesting Feature for Competitions</a></i> (<a href="session3_slides2.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">15h30-16h&nbsp;Coffee Break</th></tr>
+            
+            <tr><th colspan="2">16h-16h30&nbsp;PoS/PoCR @ FLoC 18</th></tr>
+            
+            <tr><th colspan="2">16h30&nbsp;Closing</th></tr>
+        </table>
+        
+	<h1><a name="registration">Registration</a></h1>
+
+<p>There is no specific registration for PoCR. Registration for the workshops day is available on from one of the conference hosting conference (<a href="http://sat2017.gitlab.io/registration.html">SAT</a>, <a href="http://cp2017.a4cp.org/registration.html">CP</a>, <a href="http://iclp17.a4lp.org/registration.html">ICLP</a>) and allows to attend any workshop that day.</p>
+<h1><a name="submission">Submission</a></h1>
+<p>
+  The workshop welcomes three categories of papers:
+  <ul>
+    <li><span class="label label-default">Regular papers</span> describing original work on a topic of the workshop, whose focus
+      is too narrow to be published in a conference.</li>
+    <li><span class="label label-default">Work in progress papers</span> describing less mature work on a topic of the workshop,
+      to gather feedback from the community. Those papers will be distributed to the audience of the workshop only.</li>
+    <li><span class="label label-default">Presentation papers</span> describing a work on a topic of the workshop published recently
+      to another conference, but that the community may have missed. Those papers will only be evaluated on their relevance
+      to the workshop, and will not be distributed to the audience (a link to the original paper will be given).</li>
+    </ul>
+  </p>
+<p>Each submission will be reviewed by at least three members of the programme committee.</p>
+        <p>The papers must be submitted electronically through <a
+            href="https://easychair.org/conferences/?conf=pocr17">EasyChair</a>
+        as a PDF file using the <a href="http://www.easychair.org/publications/easychair.zip">EasyChair proceedings style</a>. Each submission is limited to 14 pages, plus references.
+        </p>
+	<p>Authors should provide enough information and/or data for reviewers to confirm any performance claims. This includes links
+	  to a runnable system, access to benchmarks, reference to a public performance results, etc.</p>
+
+	<h1><a name="dates">Important dates</a></h1>
+
+	<ul>
+            <li>Abstract submission deadline: June <span class="was">23</span> 28, 2017</li>
+	    <li>Paper submission deadline: June 28, 2017</li>
+	    <li>Notification to authors: July 14, 2017</li>
+	    <li>Final version due: August 18, 2017</li>
+	    <li><span class="label label-info">Workshop: August 28, 2017</span></li>
+	    </ul>
+
+	<h1><a name="PC">Programme Committee</a></h1>
+
+    <ul>
+      <li>ArminBiere, Johannes Kepler University Linz</li>
+      <li>MatsCarlsson,SICS</li>
+      <li>DanielLe Berre,CNRS - Université d'Artois</li>
+      <li>JoaoMarques-Silva, University of Lisbon</li>
+      <li>RubenMartins, University of Texas at Austin</li>
+      <li>LaurentMichel,University of Connecticut</li>
+      <li>LaurentPerron, Google France</li>
+      <li>CharlesPrud'Homme, TASC (CNRS/INRIA), Mines Nantes</li>
+      <li>LucaPulina, POLCOMING - University of Sassari</li>
+      <li>Jean-CharlesRegin,University Nice-Sophia Antipolis / I3S / CNRS</li>
+      <li>OlivierRoussel, CNRS - Université d'Artois</li>
+      <li>TorstenSchaub, University of Potsdam</li>
+      <li>PierreSchaus, UC Louvain</li>
+      <li>TakehideSoh, Information Science and Technology Center, Kobe University</li>
+    </ul>
+    <h1><a name="contact">Contact</a></h1>
+    <p>
+      For any questions related to the workshop, the preferred solution to contact the organizers is to send an email to <code>pocr at pragmaticsofsat.org</code>.
+      </p>
+    <pre>
+Daniel Le Berre                               Pierre Schaus                                                                        
+Universite d'Artois                           UC Louvain                              
+CNRS                                          ICTeam institute                                                     
+Rue Jean Souvraz SP 18 62307 Lens FRANCE      Place Sainte Barbe 2, 1348 Louvain-la-Neuve       
+http://www.cril.fr/~leberre                   https://www.info.ucl.ac.be/~pschaus/        
+</pre>
+    </div>
+</body>
+
+</html>
