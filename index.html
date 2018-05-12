@@ -1,201 +1,204 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <title>CAIP 2018</title>
-    <meta name="description" content="CAIP 2018: First International Workshop on Constraints and AI Planning"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">CAIP 2018</h1>
-      <h2 class="project-tagline">CAIP 2018: First International Workshop on Constraints and AI Planning</h2>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Pragmatics of Constraint Reasoning 2017</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <style>
+    .was {
+    text-decoration: line-through;
+    }
+        .myu {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <a class="navbar-brand" href="../">Pragmatics of SAT</a>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#context">Scientific context</a></li>
+      <li><a href="#topics">Topics</a></li>
+      <li><a href="#programme">Programme</a></li>
+      <li><a href="#registration">Registration</a></li>
+      <li><a href="#submission">Submission</a></li>
+      <li><a href="#dates">Important dates</a></li>
+      <li><a href="#PC">Programme Committee</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="http://sat2017.gitlab.io/">SAT'17</a></li>
+      </ul>
+    </nav>
+  <div class="container">
+
+    <div class="jumbotron">
+
+      <h1>Pragmatics of Constraint Reasoning</h1>
+      <p>
+	a workshop of the <a href="http://cp2017.a4cp.org/">23rd International Conference on Principles and Practice of Constraint Programming</a>,
+	<a href="http://iclp17.a4lp.org/">33rd International Conference on Logic Programming</a> and
+	<a href="http://sat2017.gitlab.io">20th International Conference on Theory and Applications of Satisfiability Testing</a>
+	</p>
+      <p>
+	August 28, 2017, Melbourne, Australia
+	</p>
+      </div>
+    <div class="alert alert-info">
+            <span class="label label-info">News:</span> presentations are now available.
+	    </div>
+    <h1><a name="context">Scientific context</a></h1>
+    <h2>Purpose</h2>
+    <p>
+      The aim of the Pragmatics of SAT (PoS) workshop is to allow researchers concerned with the design of efficient SAT and CP
+      solvers at large or SAT encodings/CP formulation to meet and discuss about their latest results. The workshop is also
+      the place for users of SAT and CP technology to present their applications. The collocation of CP, ICLP and SAT this year is
+      a unique opportunity to enlarge the audience of the workshop to the whole constraint community, thus the specific name ``Pragmatics
+      of Constraint Reasoning".
+
+      <h2>Background</h2>
+      The success of SAT technology in the last decade is mainly due to both the availability of numerous efficient SAT solvers
+      and to the growing number of problems that can efficiently be solved through a translation into SAT. There are also numerous
+      CP systems available today, in various languages, some of them hybridizing CP and SAT. Designing efficient solvers requires
+      both a good theoretical knowledge about the design of those solvers, i.e. how are interacting all its components, and
+      a deep practical knowledge about how to implement efficiently such components. The CP community organizes regularly competitive
+      events (SAT competition or SAT Races, QBF Evaluation, MAXSAT evaluation, Minizinc Challenge, etc.) to evaluate available
+      solvers on a wide range of problems. The winners of those events set regularly new standards in the area. If the systems
+      themselves are widely spread, many details on their design or in their implementation can only be found in the source
+      code of the systems. The aim of the workshop is to allow researchers to share some gory technical details about their
+      systems that they cannot usually share within the main SAT or CP conference.
+
+      <h2>History</h2>
+      The first workshops dedicated to the practical aspects of constraint programming were organized under the series TRICS: Techniques
+      foR Implementing Constraint programming Systems. The workshops were organized in 2000 (Singapore), 2002 (Ithaca), 2010
+      (St Andrews) and <a href"http://cp2013.a4cp.org/workshops/trics">2013 (Uppsala)</a>. The first edition of PoS took place during
+      FLoC 2010. The second edition took place before SAT 2011, in Ann Arbor. The third edition took place on June 16, 2012,
+      between the second SAT/SMT Summer School (June 12 to 15) and the SAT conference (June 17-20). The fourth edition took
+      place on July 8, once again between the SAT/SMT summer school and the SAT conference. The fifth edition took place during
+      the Vienna Summer of Logic, just before the SAT conference. The sixth edition took place before the SAT conference, in
+      Austin. The last edition took place before the SAT conference, in Bordeaux.
+
       
-      
-    </section>
 
-    <section class="main-content">
-      
-<p>ModRef 2017 will be the 16th in a <a href="https://www-users.cs.york.ac.uk/~frisch/ModRef/">series of workshops on Constraint Modelling and Reformulation</a>.</p>
-
-<p>ModRef has always been co-located with the <a href="http://www.a4cp.org/events/cp-conference-series">Constraint Programming (CP) conference</a> in the past.
-This year CP is co-located with ICLP and SAT, and we are excited to run ModRef in this context!</p>
-
-<ul>
-  <li><a href="http://sat2017.gitlab.io/">The 23rd International Conference on Principles and Practice of Constraint Programming</a></li>
-  <li><a href="http://iclp17.a4lp.org/">The 33rd International Conference on Logic Programming</a></li>
-  <li><a href="http://cp2017.a4cp.org/">The 20th International Conference on Theory and Applications of Satisfiability Testing</a></li>
-</ul>
-
-<p>Recent years have witnessed significant research devoted to modelling and solving problems with constraints.
-The importance of modelling and model reformulation is widely recognised.
-There have been developments in systematic and automated ways of improving aspects of modelling and model reformulation.
-Tools and techniques which provide the ability to target multiple kinds of solvers were also developed.</p>
-
-<p>The key goals of this workshop are
-to extend the understanding of constraint modelling and
-to automate aspects of modelling or model reformulation to extend the reach of constraint solvers on difficult problems and ease the task of modelling.
-We solicit original papers that contribute to either or both of these goals.</p>
-
-<p>Workshop topics include:</p>
-
-<ul>
-  <li>Application papers describing interesting problems and interesting ways to model them;</li>
-  <li>Contributions to understanding modelling that could guide the manual or automatic formulation of models;</li>
-  <li>Identification of the criteria that should be used in evaluating models and the design of pragmatic techniques that facilitate the choice and possible combination among alternative models;</li>
-  <li>Design of higher-level modelling languages;</li>
-  <li>Automatic reformulation techniques;</li>
-  <li>Techniques which allow automatically targeting multiple kinds of solvers from a single declarative model.</li>
-</ul>
-
-<h2 id="call-for-presentations-deadline-31-july-2017">Call for Presentations (Deadline: 31 July 2017)</h2>
-
-<p>This year ModRef will include presentations that are not based on submitted papers.</p>
-
-<p>In addition to the presentation of research results, we especially welcome talks describing ongoing work, recent breakthroughs, future directions, and descriptions of interesting aspects of existing systems. It will be a lightweight submission: we only ask for a title and an abstract to be used in the program.</p>
-
-<p>Please submit your title and abstract in PDF format using <a href="http://www.easychair.org/conferences/?conf=modref2017">EasyChair</a>. Submissions will be reviewed promptly for appropriateness.</p>
-
-<h2 id="call-for-papers-deadline-31-july-2017">Call for Papers (Deadline: 31 July 2017)</h2>
-
-<p>Submissions must be formatted in the Lecture Notes in Computer Science (LNCS) style and must be within 15 pages excluding references.
-Submissions of shorter papers, including position papers, are welcome.</p>
-
-<p>Papers must be submitted in PDF format using <a href="http://www.easychair.org/conferences/?conf=modref2017">EasyChair</a>.</p>
-
-<p>Please feel free to <a href="mailto:ozgur.akgun@st-andrews.ac.uk">get in touch</a> to express interest, to have an informal discussion, etc.</p>
-
-<p>All submissions will be reviewed and those that are well-written and make a worthwhile contribution to the topic of the workshop will be accepted for publication in the workshop proceedings.
-The proceedings will be available electronically at CP 2017.
-At least one author of each accepted paper must attend the workshop.
-Please note that every workshop participant needs to be registered for the workshop.</p>
-
-<p>Past events of this workshop series can be found <a href="https://www-users.cs.york.ac.uk/~frisch/ModRef/">here</a>.</p>
-
-<h2 id="important-dates">Important Dates</h2>
-
-<table>
-  <tbody>
-    <tr>
-      <td>Submission date</td>
-      <td><strike>July 2nd, 2017</strike> July 31st, 2017</td>
-    </tr>
-    <tr>
-      <td>Notification of acceptance/rejection</td>
-      <td>August 6th, 2017</td>
-    </tr>
-    <tr>
-      <td>Camera ready version</td>
-      <td>August 20th, 2017</td>
-    </tr>
-    <tr>
-      <td>Workshop day</td>
-      <td>August 28th, 2017</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="program-committee">Program Committee</h2>
-
-<table>
-  <tbody>
-    <tr>
-      <td>Özgür Akgün (Chair)</td>
-      <td>University of St Andrews</td>
-    </tr>
-    <tr>
-      <td>Alan Frisch (Chair)</td>
-      <td>University of York</td>
-    </tr>
-    <tr>
-      <td>Kevin Leo (Local organiser)</td>
-      <td>Monash University</td>
-    </tr>
-    <tr>
-      <td>Serdar Kadioglu</td>
-      <td>Oracle</td>
-    </tr>
-    <tr>
-      <td>Jean-Noël Monette</td>
-      <td>Tacton</td>
-    </tr>
-    <tr>
-      <td>Mateu Villaret</td>
-      <td>University of Girona</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="timetable">Timetable</h2>
-
-<table>
-  <tbody>
-    <tr>
-      <td>13:30</td>
-      <td>Session Chair’s Welcome: Kevin Leo</td>
-    </tr>
-    <tr>
-      <td>13:35</td>
-      <td>Invited Talk: Peter Stuckey <br /> <strong>Ten Years of MiniZinc</strong> (<a href="/ModRef2017/files/ModRef2017_Stuckey.txt">Abstract</a>, <a href="/ModRef2017/files/TenYearsOfMiniZinc.pdf">Slides</a>)</td>
-    </tr>
-    <tr>
-      <td>14:20</td>
-      <td>Contributed Paper: Thibaut Feydy, Adrian Goldwaser, Andreas Schutt, Peter J. Stuckey and Kenneth Young <br /> <strong>Priority Search with MiniZinc</strong> (<a href="/ModRef2017/files/ModRef2017_PrioritySearchWithMiniZinc.pdf">Paper</a>)</td>
-    </tr>
-    <tr>
-      <td>14:50</td>
-      <td>Short Talk: Jessica Enright, Christopher Jefferson, David Manlove, Ciaran McCreesh, Patrick Prosser, Simon Rogers and James Trimble <br /> <strong>Modelling and Optimisation with Graphs</strong> (<a href="/ModRef2017/files/ModRef2017_ModellingWithGraphs.pdf">Abstract</a>)</td>
-    </tr>
-    <tr>
-      <td>15:10</td>
-      <td>Short Talk: Kenneth Young <br /> <strong>A Logic-Based Benders Decomposition of an Assembly Line Balancing and Scheduling Problem</strong> (<a href="/ModRef2017/files/ModRef2017_Young.pdf">Abstract</a>)</td>
-    </tr>
-    <tr>
-      <td>15:30</td>
-      <td>Coffee Break</td>
-    </tr>
-    <tr>
-      <td>16:00</td>
-      <td>Invited Talk: David Mitchell <br /> <strong>A Logical View of Constraint Modelling and Reformulation</strong> (<a href="/ModRef2017/files/ModRef2017_Mitchell.pdf">Abstract</a>)</td>
-    </tr>
-    <tr>
-      <td>16:35</td>
-      <td>Contributed Paper: Carleton Coffrin, Siqi Liu, Peter J. Stuckey and Guido Tack <br /> <strong>Solution Checking with MiniZinc</strong> (<a href="/ModRef2017/files/ModRef2017_SolutionCheckingWithMinizinc.pdf">Paper</a>)</td>
-    </tr>
-    <tr>
-      <td>17:05</td>
-      <td>Short Talk: Miquel Bofill <br /> <strong>Towards Compact SMT Encodings for Numeric Planning</strong> (<a href="/ModRef2017/files/ModRef2017_Bofill.txt">Abstract</a>)</td>
-    </tr>
-    <tr>
-      <td>17:25</td>
-      <td>Contributed Paper: Masoumeh Vali and Khodakaram Salimifard <br /> <strong>A Constraint Programming Approach for Solving Multiple Traveling Salesman Problem</strong> (<a href="/ModRef2017/files/ModRef2017_MTSP.pdf">Paper</a>)</td>
-    </tr>
-    <tr>
-      <td>17:55</td>
-      <td>End</td>
-    </tr>
-  </tbody>
-</table>
-
-
-      <footer class="site-footer">
+      <h1><a name="topics">Topics</a></h1>
+      <p>Main areas of interest include, but are not restricted to:</p>
+      <ul>
+	<li>techniques for debugging or certifying solvers</li>
+	<li>visualisation of benchmarks structure</li>
+	<li>monitoring solver behaviour</li>
+	<li>evaluation of solvers</li>
+	<li>efficient data structures</li>
+	<li>domain specific encodings</li>
+	<li>taking into account multi-core technology</li>
+	<li>domain specific heuristics</li>
+	<li>new application of constraint-based technologies</li>
+	<li>new use cases of constraint-based technologies</li>
+	<li>system/library description</li>
+	<li>SAT/SMT/CP/LP solver API</li>
+	</ul>
+      <h1><a name="programme">Programme/Venue</a></h1>
+        <p>The workshop will take place at the <a href="http://sat2017.gitlab.io/venue.html">Melbourne Convention and Exhibition Centre</a>, in Room 107. See the <a href="http://sat2017.gitlab.io/booklet_a5.pdf"> conference booklet</a> for details to locate the room.</p>
         
-          <span class="site-footer-owner"><a href="https://github.com/PesantGilles">CAIP 2018</a> is maintained by <a href="https://github.com/PesantGilles">Gilles Pesant</a>.</span>
+        <p>All technical presentations have a 30 minute slot including questions. All invited talks (competitive events) have a one hour slot including questions.</p>
         
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </section>
+        <table  class="table table-bordered table-hover">
+            
+            <tr><th colspan="2">9h&nbsp;Opening</th></tr>
+            <tr><th colspan="2">9h-10h&nbsp;Session 1: Cutting Planes</th></tr>
+            
+            <tr><td><span class="myu">Marc Vinyals</span>, Jan Elffers, Jesús Giráldez-Crú, Stephan Gocht and Jakob Nordström
+            </td><td><i>In Between Resolution and Cutting Planes: A Study of Proof Systems for Pseudo-Boolean SAT Solving</i> (<a href="session1_slides1.pdf">slides PDF</a>)</td></tr>
+            <tr><td>Jan Elffers, Jesús Giráldez-Crú, <span class="myu">Jakob Nordström</span> and Marc Vinyals
+            </td><td><i>Using Combinatorial Benchmarks to Probe the Reasoning Power of Pseudo-Boolean Solvers</i> (<a href="session1_slides2.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">10h00-10h30&nbsp;Coffee Break</th></tr>
+            
+            <tr><th>10h30-12h&nbsp;Session 2: Back to SAT</th></tr>
+            
+            <tr><td>Edward Zulkoski, Ruben Martins, Christoph M. Wintersteiger, Robert Robere, Jia Liang, Krzysztof Czarnecki and Vijay Ganesh</td><td><i>Empirically Relating Complexity-theoretic Parameters with SAT Solver Performance</i> (<a href="session2_slides1.pptx">slides PPTX</a>)</td></tr>
+            <tr><td>Tom van Dijk, Rüdiger Ehlers and <span class="myu">Armin Biere</span></td><td><i>Revisiting Decision Diagrams for SAT</i> (<a href="http://fmv.jku.at/biere/talks/Biere-POCR17-talk.pdf">slides PDF</a>)</td></tr>
+            <tr><td>Jean Marie Lagniez, Daniel Le Berre, Tiago de Lima and <span class="myu">Valentin Montmirail</span>
+            </td><td><i>A SAT-Based Approach for Solving the Minimal S5-Satisfiability Problem</i> (<a href="session2_slides3.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">12h-13h30&nbsp;Lunch (not provided)</th></tr>
+            
+            <tr><th colspan="2">13h30-15h30&nbsp;Session 3: competitive event discussions</th></tr>
+            
+            <tr><td><span class="myu">Luca Pulina</span> </td><td><i><a href="http://www.qbflib.org/qbfeval17.php">QBF-Eval</a></i>  (<a href="session3_slides1.pdf">slides PDF</a>)</td></tr>
+            <tr><td><span class="myu">Christophe Lecoutre</span></td><td><i><a href="http://xcsp.org/competition"> Structure Preserved by XCSP3: an Interesting Feature for Competitions</a></i> (<a href="session3_slides2.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">15h30-16h&nbsp;Coffee Break</th></tr>
+            
+            <tr><th colspan="2">16h-16h30&nbsp;PoS/PoCR @ FLoC 18</th></tr>
+            
+            <tr><th colspan="2">16h30&nbsp;Closing</th></tr>
+        </table>
+        
+	<h1><a name="registration">Registration</a></h1>
 
-    
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<p>There is no specific registration for PoCR. Registration for the workshops day is available on from one of the conference hosting conference (<a href="http://sat2017.gitlab.io/registration.html">SAT</a>, <a href="http://cp2017.a4cp.org/registration.html">CP</a>, <a href="http://iclp17.a4lp.org/registration.html">ICLP</a>) and allows to attend any workshop that day.</p>
+<h1><a name="submission">Submission</a></h1>
+<p>
+  The workshop welcomes three categories of papers:
+  <ul>
+    <li><span class="label label-default">Regular papers</span> describing original work on a topic of the workshop, whose focus
+      is too narrow to be published in a conference.</li>
+    <li><span class="label label-default">Work in progress papers</span> describing less mature work on a topic of the workshop,
+      to gather feedback from the community. Those papers will be distributed to the audience of the workshop only.</li>
+    <li><span class="label label-default">Presentation papers</span> describing a work on a topic of the workshop published recently
+      to another conference, but that the community may have missed. Those papers will only be evaluated on their relevance
+      to the workshop, and will not be distributed to the audience (a link to the original paper will be given).</li>
+    </ul>
+  </p>
+<p>Each submission will be reviewed by at least three members of the programme committee.</p>
+        <p>The papers must be submitted electronically through <a
+            href="https://easychair.org/conferences/?conf=pocr17">EasyChair</a>
+        as a PDF file using the <a href="http://www.easychair.org/publications/easychair.zip">EasyChair proceedings style</a>. Each submission is limited to 14 pages, plus references.
+        </p>
+	<p>Authors should provide enough information and/or data for reviewers to confirm any performance claims. This includes links
+	  to a runnable system, access to benchmarks, reference to a public performance results, etc.</p>
 
-        ga('create', 'UA-99062547-1', 'auto');
-        ga('send', 'pageview');
-      </script>
-    
-  </body>
+	<h1><a name="dates">Important dates</a></h1>
+
+	<ul>
+            <li>Abstract submission deadline: June <span class="was">23</span> 28, 2017</li>
+	    <li>Paper submission deadline: June 28, 2017</li>
+	    <li>Notification to authors: July 14, 2017</li>
+	    <li>Final version due: August 18, 2017</li>
+	    <li><span class="label label-info">Workshop: August 28, 2017</span></li>
+	    </ul>
+
+	<h1><a name="PC">Programme Committee</a></h1>
+
+    <ul>
+      <li>ArminBiere, Johannes Kepler University Linz</li>
+      <li>MatsCarlsson,SICS</li>
+      <li>DanielLe Berre,CNRS - Université d'Artois</li>
+      <li>JoaoMarques-Silva, University of Lisbon</li>
+      <li>RubenMartins, University of Texas at Austin</li>
+      <li>LaurentMichel,University of Connecticut</li>
+      <li>LaurentPerron, Google France</li>
+      <li>CharlesPrud'Homme, TASC (CNRS/INRIA), Mines Nantes</li>
+      <li>LucaPulina, POLCOMING - University of Sassari</li>
+      <li>Jean-CharlesRegin,University Nice-Sophia Antipolis / I3S / CNRS</li>
+      <li>OlivierRoussel, CNRS - Université d'Artois</li>
+      <li>TorstenSchaub, University of Potsdam</li>
+      <li>PierreSchaus, UC Louvain</li>
+      <li>TakehideSoh, Information Science and Technology Center, Kobe University</li>
+    </ul>
+    <h1><a name="contact">Contact</a></h1>
+    <p>
+      For any questions related to the workshop, the preferred solution to contact the organizers is to send an email to <code>pocr at pragmaticsofsat.org</code>.
+      </p>
+    <pre>
+Daniel Le Berre                               Pierre Schaus                                                                        
+Universite d'Artois                           UC Louvain                              
+CNRS                                          ICTeam institute                                                     
+Rue Jean Souvraz SP 18 62307 Lens FRANCE      Place Sainte Barbe 2, 1348 Louvain-la-Neuve       
+http://www.cril.fr/~leberre                   https://www.info.ucl.ac.be/~pschaus/        
+</pre>
+    </div>
+</body>
+
 </html>
