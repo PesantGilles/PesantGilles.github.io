@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Constraints and AI Planning 2018</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <style>
+    .was {
+    text-decoration: line-through;
+    }
+        .myu {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <a class="navbar-brand" href="../">Constraints and AI Planning</a>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#context">Scientific Context</a></li>
+      <li><a href="#topics">Topics</a></li>
+      <li><a href="#programme">Programme</a></li>
+      <li><a href="#registration">Registration</a></li>
+      <li><a href="#submission">Submission</a></li>
+      <li><a href="#dates">Important dates</a></li>
+      <li><a href="#PC">Organizers</a></li>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  <div class="container">
+
+    <div class="jumbotron">
+
+      <h1>Constraints and AI Planning</h1>
+      <p>
+	an incubator workshop of the <a href="http://cp2018.a4cp.org/">24rd International Conference on Principles and Practice of Constraint Programming</a>
+	</p>
+      <p>
+	August 27, 2018, Lille, France
+	</p>
+      </div>
+<!--
+    <div class="alert alert-info">
+            <span class="label label-info">News:</span> presentations are now available.
+	    </div>
+-->
+    <h1><a name="context">Scientific context</a></h1>
+    <h2>Purpose</h2>
+
+For this first one-day workshop on the topic of Constraints and AI Planning we take a broad view stemming from the observation that there are fundamental differences in representing and reasoning about a problem via constraints, as is common in CP and optimization, and doing so in the form of a state-transition system, as is common in AI planning, heuristic search, and dynamic programming.
+
+Therefore we hope to attract presentations and discussions on the interactions, overlaps, and differences among CP, SAT, mixed integer programming, AI planning in its many forms (e.g., classical, numeric, temporal, stochastic), heuristic search (i.e., A*-style state-based search) and dynamic programming. We are particularly interested in combinations of two or more perspectives.
+
+This workshop should interest researchers from academia and industry in the areas of constraint programming, operations research, and AI planning. 
+Since some of the regular CP conference attendees may not be familiar with AI planning, the workshop will include a tutorial on the fundamentals of AI planning.
+
+      <h2>Background</h2>
+
+While there has been a history of more than 20 years in the application of SAT, CP, and MIP to AI planning problems, there has been recent interest in a deeper cross-fertilization between the areas of constraint programming, operations research, and planning: 
+<ul>
+<li> A Dagstuhl seminar on AI planning and Operations Research (including in particular several members of the CP community) was held in February 2018,</li>
+<li> ICAPS2018 and CPAIOR2018 international conferences are co-located,</li>
+<li> A number of papers over the past five years at ICAPS (including at least two best paper winners) and planning sessions of AAAI and IJCAI (again, including at least one best paper winner) have focused on the use of techniques coming from Constraint Programming and Operations Research (e.g., LP, MIP, Logic-based Benders Decomposition) for important components of mainstream solutions to AI planning problems.</li>
+</ul>
+
+      <h1><a name="topics">Topics</a></h1>
+      <p>Main areas of interest include, but are not restricted to:</p>
+      <ul>
+<li> Using constraint-based techniques (e.g., CP, SAT, SMT, MIP) for solving AI planning problems including contributing to components of the AI planning solution such as heuristic evaluation.</li>
+<li> Theoretical/formal work comparing constraint-based and state-based representation and reasoning.</li>
+<li> Empirical studies comparing constraint-based and state-based solution approaches on common classes of problems.</li>
+<li> Extending approaches primarily developed in one area to the other (e.g., Lagrangian relaxation, Logic-based Benders decomposition, A*-style search, abstraction).</li>
+<li> Understanding and comparing techniques that have been developed and applied independently in both optimization/OR and AI literatures (e.g. multi-valued decision diagrams, dynamic programming vs. heuristic search, Markov Decision Processes).</li>
+	</ul>
+      <h1><a name="programme">Programme/Venue</a></h1>
+TBA
+<!--
+        <p>The workshop will take place at the <a href="http://sat2017.gitlab.io/venue.html">Melbourne Convention and Exhibition Centre</a>, in Room 107. See the <a href="http://sat2017.gitlab.io/booklet_a5.pdf"> conference booklet</a> for details to locate the room.</p>
+        
+        <p>All technical presentations have a 30 minute slot including questions. All invited talks (competitive events) have a one hour slot including questions.</p>
+        
+        <table  class="table table-bordered table-hover">
+            
+            <tr><th colspan="2">9h&nbsp;Opening</th></tr>
+            <tr><th colspan="2">9h-10h&nbsp;Session 1: Cutting Planes</th></tr>
+            
+            <tr><td><span class="myu">Marc Vinyals</span>, Jan Elffers, Jesús Giráldez-Crú, Stephan Gocht and Jakob Nordström
+            </td><td><i>In Between Resolution and Cutting Planes: A Study of Proof Systems for Pseudo-Boolean SAT Solving</i> (<a href="session1_slides1.pdf">slides PDF</a>)</td></tr>
+            <tr><td>Jan Elffers, Jesús Giráldez-Crú, <span class="myu">Jakob Nordström</span> and Marc Vinyals
+            </td><td><i>Using Combinatorial Benchmarks to Probe the Reasoning Power of Pseudo-Boolean Solvers</i> (<a href="session1_slides2.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">10h00-10h30&nbsp;Coffee Break</th></tr>
+            
+            <tr><th>10h30-12h&nbsp;Session 2: Back to SAT</th></tr>
+            
+            <tr><td>Edward Zulkoski, Ruben Martins, Christoph M. Wintersteiger, Robert Robere, Jia Liang, Krzysztof Czarnecki and Vijay Ganesh</td><td><i>Empirically Relating Complexity-theoretic Parameters with SAT Solver Performance</i> (<a href="session2_slides1.pptx">slides PPTX</a>)</td></tr>
+            <tr><td>Tom van Dijk, Rüdiger Ehlers and <span class="myu">Armin Biere</span></td><td><i>Revisiting Decision Diagrams for SAT</i> (<a href="http://fmv.jku.at/biere/talks/Biere-POCR17-talk.pdf">slides PDF</a>)</td></tr>
+            <tr><td>Jean Marie Lagniez, Daniel Le Berre, Tiago de Lima and <span class="myu">Valentin Montmirail</span>
+            </td><td><i>A SAT-Based Approach for Solving the Minimal S5-Satisfiability Problem</i> (<a href="session2_slides3.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">12h-13h30&nbsp;Lunch (not provided)</th></tr>
+            
+            <tr><th colspan="2">13h30-15h30&nbsp;Session 3: competitive event discussions</th></tr>
+            
+            <tr><td><span class="myu">Luca Pulina</span> </td><td><i><a href="http://www.qbflib.org/qbfeval17.php">QBF-Eval</a></i>  (<a href="session3_slides1.pdf">slides PDF</a>)</td></tr>
+            <tr><td><span class="myu">Christophe Lecoutre</span></td><td><i><a href="http://xcsp.org/competition"> Structure Preserved by XCSP3: an Interesting Feature for Competitions</a></i> (<a href="session3_slides2.pdf">slides PDF</a>)</td></tr>
+            
+            <tr><th colspan="2">15h30-16h&nbsp;Coffee Break</th></tr>
+            
+            <tr><th colspan="2">16h-16h30&nbsp;PoS/PoCR @ FLoC 18</th></tr>
+            
+            <tr><th colspan="2">16h30&nbsp;Closing</th></tr>
+        </table>
+  -->
+      
+	<h1><a name="registration">Registration</a></h1>
+
+<p>Registration for the workshops day is available from the hosting conference.</p>
+
+<h1><a name="submission">Submission</a></h1>
+<p>
+Participants wishing to present during the workshop should send a one-page abstract to ...
+  </p>
+<!--
+        <p>The papers must be submitted electronically through <a
+            href="https://easychair.org/conferences/?conf=pocr17">EasyChair</a>
+        as a PDF file using the <a href="http://www.easychair.org/publications/easychair.zip">EasyChair proceedings style</a>. Each submission is limited to 14 pages, plus references.
+        </p>
+-->
+
+	<h1><a name="dates">Important dates</a></h1>
+
+	<ul>
+            <li>Abstract submission deadline: July 13, 2018</li>
+	    <li>Notification to authors: July 20, 2018</li>
+	    <li><span class="label label-info">Workshop: August 27, 2018</span></li>
+	    </ul>
+
+	<h1><a name="PC">Organizers</a></h1>
+
+    <ul>
+      <li>Christopher Beck, University of Toronto, jcb@mie.utoronto.ca</li>
+      <li>Michael Cashmore, King's College London, michael.cashmore@kcl.ac.uk</li>
+      <li>Malte Helmert, University of Basel, malte.helmert@unibas.ch</li>
+      <li>Gilles Pesant, Polytechnique Montreal, gilles.pesant@polymtl.ca</li>
+    </ul>
+    <h1><a name="contact">Contact</a></h1>
+    <p>
+      For any questions related to the workshop, please contact one of the organizers above.
+      </p>
+    </div>
+</body>
+
+</html>
